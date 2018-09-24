@@ -75,6 +75,18 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">Mohamed Aimane Skhairi © 2018</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="https://github.com/medaimane/api-oauth-laravel-passport">github.com/medaimane</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://medaimane.github.io">medaimane.github.io</a>
+                </li>
+            </ul>
+        </footer>
     </div>
 </body>
 </html>

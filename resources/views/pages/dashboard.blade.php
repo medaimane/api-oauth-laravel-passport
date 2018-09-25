@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-header">Dashboard</div>
 
@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <passport-clients class="p-1 mb-1"></passport-clients>
+                    <passport-authorized-clients class="p-1 mb-1"></passport-authorized-clients>
+                    <passport-personal-access-tokens class="p-1 mb-1"></passport-personal-access-tokens>
                 </div>
             </div>
         </div>

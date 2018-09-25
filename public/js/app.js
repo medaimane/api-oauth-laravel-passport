@@ -13913,6 +13913,8 @@ var app = new Vue({
     el: '#app'
 });
 
+console.log(app);
+
 /***/ }),
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {

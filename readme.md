@@ -18,6 +18,7 @@ Laravel Project, OAuth API and Laravel Passport package.
 > register the components in the "resources/js/app.js" file.
 > npm i and npm run watch to recompile the assets.
 > add the passport components into the UI dashboard page.
+> create new client and make requests to test the oauth api.
 
 ### Author/Contributing
 

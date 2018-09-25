@@ -26,5 +26,11 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
         Passport::routes();
+
+        // Make authorisation with scope
+        Passport::tokensCan([
+            'Hello' => 'Hello World!',
+            'Goodbye' => 'Goodbye World!'
+        ]);
     }
 }

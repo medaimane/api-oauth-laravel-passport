@@ -16,3 +16,17 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+// Routes for authorisation with scope
+Route::middleware(['auth:api', 'scope:Hello'])->get('/hello', function(){
+    return ['hello'];
+});
+
+Route::middleware(['auth:api', 'scope:Goodbye'])->get('/goodbye', function(){
+    return ['goodbye'];
+});
+
+Route::middleware(['auth:api', 'scopes:Hello,Goodbye'])->get('/helloandgoodbye', function(){
+    return ['helloandgoodbye'];
+});

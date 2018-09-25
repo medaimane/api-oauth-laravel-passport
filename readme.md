@@ -19,7 +19,7 @@ Laravel Project, OAuth API and Laravel Passport package.
 > npm i and npm run watch to recompile the assets.
 > add the passport components into the UI dashboard page.
 > create new client and make requests to test the oauth api.
-> tested the authorization_code and authorization_password
+> tested the authorization_code and authorization_password and with scope
 
 ### Author/Contributing
 
